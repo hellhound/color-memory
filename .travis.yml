@@ -1,0 +1,4 @@
+language: objective-c
+xcode_sdk: iphonesimulator
+env: 
+    - XCCONFIGURATION="Debug"
