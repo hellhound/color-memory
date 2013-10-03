@@ -37,6 +37,7 @@
 		2CD7EEBA17FD0AC400F0D8A9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD7EEB917FD0AC400F0D8A9 /* SenTestingKit.framework */; };
 		2CD7EEBB17FD0AC400F0D8A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C96F30717C3D34600B8523D /* Foundation.framework */; };
 		2CD7EEBC17FD0AC400F0D8A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C96F30517C3D34600B8523D /* UIKit.framework */; };
+		2CD7EECC17FD23E400F0D8A9 /* unit-tests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CD7EECB17FD23E400F0D8A9 /* unit-tests-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		2C96F30917C3D34600B8523D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		2CD7EEB817FD0AC400F0D8A9 /* UnitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CD7EEB917FD0AC400F0D8A9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		2CD7EECB17FD23E400F0D8A9 /* unit-tests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "unit-tests-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 		2C3847BB17C3D46F003ABA36 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				2CD7EECB17FD23E400F0D8A9 /* unit-tests-Info.plist */,
 				2C3847C617C3E2CD003ABA36 /* card_bg.png */,
 				2C3847C717C3E2CD003ABA36 /* card_bg@2x.png */,
 				2C3847C817C3E2CD003ABA36 /* colour1.png */,
@@ -268,6 +271,7 @@
 				2C3847DB17C3E2CD003ABA36 /* colour1.png in Resources */,
 				2C3847DC17C3E2CD003ABA36 /* colour1@2x.png in Resources */,
 				2C3847DD17C3E2CD003ABA36 /* colour2.png in Resources */,
+				2CD7EECC17FD23E400F0D8A9 /* unit-tests-Info.plist in Resources */,
 				2C3847DE17C3E2CD003ABA36 /* colour2@2x.png in Resources */,
 				2C3847DF17C3E2CD003ABA36 /* colour3.png in Resources */,
 				2C3847E017C3E2CD003ABA36 /* colour3@2x.png in Resources */,
@@ -425,7 +429,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = "UnitTests/UnitTests-Info.plist";
+				INFOPLIST_FILE = "Resources/unit-tests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -454,7 +458,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = "UnitTests/UnitTests-Info.plist";
+				INFOPLIST_FILE = "Resources/unit-tests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
