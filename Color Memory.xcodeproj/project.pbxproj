@@ -40,7 +40,7 @@
 		2C3847BC17C3D46F003ABA36 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		2C3847BD17C3D46F003ABA36 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		2C3847BE17C3D46F003ABA36 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		2C3847BF17C3D46F003ABA36 /* colour-memory-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "colour-memory-Info.plist"; sourceTree = "<group>"; };
+		2C3847BF17C3D46F003ABA36 /* color-memory-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "color-memory-Info.plist"; sourceTree = "<group>"; };
 		2C3847C617C3E2CD003ABA36 /* card_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card_bg.png; sourceTree = "<group>"; };
 		2C3847C717C3E2CD003ABA36 /* card_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card_bg@2x.png"; sourceTree = "<group>"; };
 		2C3847C817C3E2CD003ABA36 /* colour1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colour1.png; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 		2C3847D817C3E2CD003ABA36 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		2C3847EC17C3E427003ABA36 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2C3847EE17C3E801003ABA36 /* CMAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMAppDelegate.m; sourceTree = "<group>"; };
-		2C96F30217C3D34600B8523D /* Colour Memory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Colour Memory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C96F30217C3D34600B8523D /* Color Memory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color Memory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C96F30517C3D34600B8523D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2C96F30717C3D34600B8523D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2C96F30917C3D34600B8523D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -107,7 +107,7 @@
 				2C3847BC17C3D46F003ABA36 /* Default-568h@2x.png */,
 				2C3847BD17C3D46F003ABA36 /* Default.png */,
 				2C3847BE17C3D46F003ABA36 /* Default@2x.png */,
-				2C3847BF17C3D46F003ABA36 /* colour-memory-Info.plist */,
+				2C3847BF17C3D46F003ABA36 /* color-memory-Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -142,7 +142,7 @@
 		2C96F30317C3D34600B8523D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2C96F30217C3D34600B8523D /* Colour Memory.app */,
+				2C96F30217C3D34600B8523D /* Color Memory.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -160,9 +160,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2C96F30117C3D34600B8523D /* Colour Memory */ = {
+		2C96F30117C3D34600B8523D /* Color Memory */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C96F31F17C3D34600B8523D /* Build configuration list for PBXNativeTarget "Colour Memory" */;
+			buildConfigurationList = 2C96F31F17C3D34600B8523D /* Build configuration list for PBXNativeTarget "Color Memory" */;
 			buildPhases = (
 				2C96F2FE17C3D34600B8523D /* Sources */,
 				2C96F2FF17C3D34600B8523D /* Frameworks */,
@@ -172,9 +172,9 @@
 			);
 			dependencies = (
 			);
-			name = "Colour Memory";
-			productName = "Colour Memory";
-			productReference = 2C96F30217C3D34600B8523D /* Colour Memory.app */;
+			name = "Color Memory";
+			productName = "Color Memory";
+			productReference = 2C96F30217C3D34600B8523D /* Color Memory.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -187,7 +187,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Jean-Pierre Chauvel";
 			};
-			buildConfigurationList = 2C96F2FD17C3D34600B8523D /* Build configuration list for PBXProject "Colour Memory" */;
+			buildConfigurationList = 2C96F2FD17C3D34600B8523D /* Build configuration list for PBXProject "Color Memory" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -199,7 +199,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2C96F30117C3D34600B8523D /* Colour Memory */,
+				2C96F30117C3D34600B8523D /* Color Memory */,
 			);
 		};
 /* End PBXProject section */
@@ -312,7 +312,7 @@
 		2C96F32017C3D34600B8523D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = "Resources/colour-memory-Info.plist";
+				INFOPLIST_FILE = "Resources/color-memory-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -321,7 +321,7 @@
 		2C96F32117C3D34600B8523D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = "Resources/colour-memory-Info.plist";
+				INFOPLIST_FILE = "Resources/color-memory-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -330,7 +330,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2C96F2FD17C3D34600B8523D /* Build configuration list for PBXProject "Colour Memory" */ = {
+		2C96F2FD17C3D34600B8523D /* Build configuration list for PBXProject "Color Memory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2C96F31D17C3D34600B8523D /* Debug */,
@@ -339,7 +339,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2C96F31F17C3D34600B8523D /* Build configuration list for PBXNativeTarget "Colour Memory" */ = {
+		2C96F31F17C3D34600B8523D /* Build configuration list for PBXNativeTarget "Color Memory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2C96F32017C3D34600B8523D /* Debug */,
